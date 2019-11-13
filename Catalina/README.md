@@ -15,11 +15,10 @@
 ### “postinstall” folder contains kexts you need to install manually.
 - “FakePCIID.kext”, “FakePCIID_Intel_HDMI_Audio.kext” and “ACPIBatteryManager.kext” must be installed to “Library/Extensions” (“/L/E”)
 
-Not promise it will work.
+- Not promise it will work.
 ->You could try the touchpad driver for gestures in the “optional_touchpad_gestures” folder (install to “/L/E”), but delete “VoodoPS2Controller.kext” from everywhere, that will broke your mouse. If that happens use an external mouse (or do it from single user mode “-s”), delete, rebuild caches.
 
-Headphone Combo Jack fix:
-
+- Headphone Combo Jack fix:
 -> To fix your garbage sound output on combo jack first install “CodecCommander.kext” (in “ALCPlugFix” folder) to “L/E”, then mount the system drive in rw: 
 Before start on macOS Catalina your system drive is read-only, so you must mount in read-write:
 	sudo mount -uw
