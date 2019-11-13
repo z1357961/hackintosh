@@ -16,19 +16,17 @@
 - “FakePCIID.kext”, “FakePCIID_Intel_HDMI_Audio.kext” and “ACPIBatteryManager.kext” must be installed to “Library/Extensions” (“/L/E”)
 
 - Not promise it will work.
-->You could try the touchpad driver for gestures in the “optional_touchpad_gestures” folder (install to “/L/E”), but delete “VoodoPS2Controller.kext” from everywhere, that will broke your mouse. If that happens use an external mouse (or do it from single user mode “-s”), delete, rebuild caches.
+	- You could try the touchpad driver for gestures in the “optional_touchpad_gestures” folder (install to “/L/E”), but delete “VoodoPS2Controller.kext” from everywhere, that will broke your mouse. If that happens use an external mouse (or do it from single user mode “-s”), delete, rebuild caches.
 
 - Headphone Combo Jack fix:
--> To fix your garbage sound output on combo jack first install “CodecCommander.kext” (in “ALCPlugFix” folder) to “L/E”, then mount the system drive in rw: 
-Before start on macOS Catalina your system drive is read-only, so you must mount in read-write:
-	sudo mount -uw
-	sudo killall Finder
-Finally, install ALCPlugFix by double clicking “english_install.command”.
+	- To fix your garbage sound output on combo jack first install “CodecCommander.kext” (in “ALCPlugFix” folder) to “L/E”, then mount the system drive in rw: 
+		- Before start on macOS Catalina your system drive is read-only, so you must mount in read-write:
+			- sudo mount -uw
+			- sudo killall Finder
+		- Finally, install ALCPlugFix by double clicking “english_install.command”.
+		- Wait while the script copies the required files and rebuild kextcache (related files are in the `fix` folder). It may take a few seconds.
+		- When it's done, you'll see `Press any key to Exit`. Type any key and press Enter, then restart your computer. The installation now completes.
 
-* Wait while the script copies the required files and rebuild kextcache (related files are in the `fix` folder). It may take a few seconds.
+	- ATTENTION: You may have to replug the headphone after every boot to let headphone work.
 
-* When it's done, you'll see `Press any key to Exit`. Type any key and press Enter, then restart your computer. The installation now completes.
-
-ATTENTION: You may have to replug the headphone after every boot to let headphone work.
-
-After you copied every kexts repair permissions && rebuild kextcache, then you done.
+- After you copied every kexts repair permissions && rebuild kextcache, then you done.
