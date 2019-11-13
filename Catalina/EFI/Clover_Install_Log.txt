@@ -1,0 +1,48 @@
+
+Clover EFI installer log - Thu Nov  7 10:13:49 CST 2019
+Installer version: v2.5k r5098 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *128.0 GB   disk0
+   1:           Windows Recovery                         554.7 MB   disk0s1
+   2:                        EFI ESP                     104.9 MB   disk0s2
+   3:         Microsoft Reserved                         16.8 MB    disk0s3
+   4:       Microsoft Basic Data OS                      127.4 GB   disk0s4
+
+/dev/disk1 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *1.0 TB     disk1
+   1:       Microsoft Basic Data DATA                    763.7 GB   disk1s1
+   2:       Microsoft Basic Data EFI                     21.5 GB    disk1s2
+   3:                        EFI EFI                     314.6 MB   disk1s3
+   4:                 Apple_APFS Container disk2         214.7 GB   disk1s4
+
+/dev/disk2 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +214.7 GB   disk2
+                                 Physical Store disk1s4
+   1:                APFS Volume hackintosh - Data       57.8 GB    disk2s1
+   2:                APFS Volume Preboot                 82.8 MB    disk2s2
+   3:                APFS Volume Recovery                528.5 MB   disk2s3
+   4:                APFS Volume VM                      6.4 GB     disk2s4
+   5:                APFS Volume hackintosh              10.9 GB    disk2s5
+
+Target volume /Volumes/hackintosh on disk2 is APFS on physical store disk1s4
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/hackintosh/EFIROOTDIR/EFI folder to /Volumes/hackintosh/EFI-Backups/r5093/2019-11-07-10h13/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+Removing UEFI/HFSPlus.efi because VBoxHfs.efi is installed!
+Removing UEFI/OsxAptioFix3Drv.efi because OsxAptioFixDrv.efi is installed
+
+Theme 'Beauty' (defined in config.plist) not found !
+Using default theme 'Clovy'
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
