@@ -2,6 +2,45 @@
 
 - V5-591G-598J
 
+# Specifications:
+- Motherboard: USOPP_SLS (Skylake-H PCH)
+
+- BIOS: Insyde Corp. v 1.15
+
+- CPU: Intel Core i5-6300HQ 2.3 GHz (Skylake)
+
+- GPU: NVIDIA GeForce GTX 950M 2 GB (Optimus) & Intel HD Graphics 530
+
+- RAM: Transcend 8 GB DDR4-2400 + Crucial 4 GB-2133 
+
+- WiFi + Bluetooth: Qualcomm Atheros 
+
+- Audio: Realtek ALC255 
+
+- Ethernet: Realtek RTL8168/8111
+
+- Card Reader: Realtek USB 2.0 Card Reader (USB2.0-CRW)
+
+- Webcam: HD Webcam
+
+- HDD: TOSHIBA MQ01ACF032 320 GB HDD
+
+- SSD: SPCC M.2 230 GB SSD
+
+- Display: 1366x768 (15.6", Matte)
+
+- Battery: 6 cell 56Wh / 5040mAh
+
+- Connectors: 
+
+1x SD Card Reader
+2x USB 3.0 (1x USB Charging), 1x USB 2.0
+1x VGA
+1x HDMI
+1x 3.5mm microphone/audio combined jack connector
+1x Ethernet (Rj-45)
+- Keyboard & Touchpad: Multi-Touch & Multi-gestures ELAN 501 Touchpad, Backlight Keyboard.
+
 # Working:  
 - Bluetooth 
 
