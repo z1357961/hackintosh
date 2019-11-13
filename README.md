@@ -13,32 +13,30 @@
 
 - RAM: Transcend 8 GB DDR4-2400 + Crucial 4 GB-2133 
 
-- WiFi + Bluetooth: Qualcomm Atheros 
-
-- Audio: Realtek ALC255 
+- WiFi + Bluetooth:	Qualcomm Atheros QCA61x4A Wireless Network Adapter 
 
 - Ethernet: Realtek RTL8168/8111
+
+- Audio: Realtek ALC255 
 
 - Card Reader: Realtek USB 2.0 Card Reader (USB2.0-CRW)
 
 - Webcam: HD Webcam
 
-- HDD: TOSHIBA MQ01ACF032 320 GB HDD
+- HDD: HGST HTS721010A9E630  (1 TB, 7200 RPM, SATA-III)
 
-- SSD: SPCC M.2 230 GB SSD
+- SSD: SanDisk SD8SNAT128G1122  (128 GB, SATA-III)
 
-- Display: 1366x768 (15.6", Matte)
-
-- Battery: 6 cell 56Wh / 5040mAh
+- Display: 1920*1080 (15.6", LCD)
 
 - Connectors: 
 
-1x SD Card Reader
-2x USB 3.0 (1x USB Charging), 1x USB 2.0
-1x VGA
-1x HDMI
-1x 3.5mm microphone/audio combined jack connector
-1x Ethernet (Rj-45)
+    - 1x SD Card Reader
+    - 2x USB 3.0 (1x USB Charging), 1x USB 2.0
+    - 1x VGA
+    - 1x HDMI
+    - 1x 3.5mm microphone/audio combined jack connector
+    - 1x Ethernet (Rj-45)
 - Keyboard & Touchpad: Multi-Touch & Multi-gestures ELAN 501 Touchpad, Backlight Keyboard.
 
 # Working:  
