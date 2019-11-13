@@ -66,7 +66,7 @@
 
 - Card Reader
 
-Collect all the source from the Net with some modification by myself.
+Note: the above content source network with some modification by myself, if any infringement please contact me to change or delete!
 
 Thanks to Kushwavez, the origin post: https://osxlatitude.com/forums/topic/11355-acer-aspire-v-15-v5-591g-catalina-windows-10/
 
