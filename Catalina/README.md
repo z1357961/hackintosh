@@ -1,5 +1,4 @@
 # Catalina
-<<<<<<< HEAD
 =======
 ### The “EFI” folder containing CLOVER and BOOT folder for USB Installer and for the system EFI too. 
 
@@ -32,4 +31,3 @@
 	- ATTENTION: You may have to replug the headphone after every boot to let headphone work.
 
 - After you copied every kexts repair permissions && rebuild kextcache, then you done.
->>>>>>> c90ac308ccbfec8c053cb3620b89c0428a0eb60b
