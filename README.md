@@ -29,6 +29,8 @@
 
 - Card Reader
 
-Collect all the source from the Net with some modification.
+Collect all the source from the Net with some modification by myself.
+
+Thanks to Kushwavez, the origin post: https://osxlatitude.com/forums/topic/11355-acer-aspire-v-15-v5-591g-catalina-windows-10/
 
 Not responsible for any shutdown or damagine.
